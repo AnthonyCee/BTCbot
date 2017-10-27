@@ -102,6 +102,18 @@ public class BoscoBot
 		{
 			response = "Farts are nice.";
 		}
+		else if(findKeyword(statement, "apply") >= 0)
+		{
+			response = "For the class of 2022, prospective freshma deadlines are Dec 8, 2017 for early addmission and february 10, 2018 for regualr admission deadline.";
+		}
+		else if (findKeyword(statement, "summer") >= 0)
+		{
+			response = "There is a required Summer Program for incomming freshman. Freshman spend a week in each of the engineering program departments.";
+		}
+		else if (findKeyword(statement, "tuiton") >= 0)
+		{
+			response = "The tuiton is expensive here. 11K every year.";
+		}
 		else if(findKeyword(statement, "") >= 0)
 		{
 			response = "Speak up! I can't hear a word you are saying!";
